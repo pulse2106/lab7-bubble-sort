@@ -1,1 +1,1 @@
-# No external dependencies are required for this project.
+pytest>=8.0.0

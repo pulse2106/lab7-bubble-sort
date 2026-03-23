@@ -13,7 +13,7 @@ The script prints the list after each comparison step and pauses for 1.5 seconds
 ## Requirements
 
 - Python 3.10+ (or any recent Python 3 version)
-- No external Python packages are required
+- `pytest` for running tests
 
 ## Installation
 
@@ -29,6 +29,14 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+## Test
+
+```bash
+pytest -q
+```
+
+The test suite includes 5 tests that cover sorting correctness, edge cases, in-place behavior, output control, and delay behavior.
 
 ## Expected Behavior
 
