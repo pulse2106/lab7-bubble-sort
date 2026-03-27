@@ -12,3 +12,5 @@
 ## 3. Key Learnings
 * **Technical Skills:** What CS concepts or tools did you discover or master during this project?
 * **AI Workflow:** How will you change your use of AI tools in your next project?
+
+## Had to use pygame-ce as pygame has not yet been updated for python version 3.14
