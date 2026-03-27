@@ -23,3 +23,6 @@ Automatically captured prompt log. Entries are appended in chronological order (
 ### 23-03-2026 15:04
 - **Prompt**: would the ascii bar help
 
+### 27-03-2026 23:51
+- **Prompt**: I am trying install pygame but i am coming across an error
+
