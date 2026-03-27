@@ -92,8 +92,9 @@ def genArr(n):
     return arr
 
 vis = True
-# Determines number of rows supported by the open window
 row = os.get_terminal_size()[1]
+
+# code was sourced from a git repo https://github.com/Naimish240/TerminalSort/blob/master/code/sort.py
 
 
 if __name__ == "__main__":
