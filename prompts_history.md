@@ -26,3 +26,6 @@ Automatically captured prompt log. Entries are appended in chronological order (
 ### 27-03-2026 23:51
 - **Prompt**: I am trying install pygame but i am coming across an error
 
+### 27-03-2026 23:53
+- **Prompt**: thats my problem
+
