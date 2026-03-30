@@ -1,24 +1,25 @@
 # Bubble Sort Visualizer (Python)
 
-This project demonstrates the Bubble Sort algorithm in Python.
+This project demonstrates Bubble Sort with two views:
 
-The script prints the list after each comparison step and pauses for 1.5 seconds so you can follow how values move through the array.
+- a terminal-based visualization in `terminal_sort.py`
+- a Pygame bar-graph visualization in `visual_sort.py`
 
 ## Project Structure
 
-- `main.py`: Bubble Sort implementation and a sample function call.
-- `REPORT.md`: Project report template.
+- `terminal_sort.py`: Bubble Sort logic with terminal rendering helpers.
+- `visual_sort.py`: Pygame window visualizer for Bubble Sort.
+- `tests/test_main.py`: Pytest tests for sorting behavior.
+- `requirements.txt`: Project dependencies.
+- `REPORT.md`: Report file.
 - `JOURNAL.md`: Interaction log.
 
 ## Requirements
 
-- Python 3.10+ (or any recent Python 3 version)
-- `pytest` for running tests
+- Python 3.10+
+- Dependencies from `requirements.txt`
 
 ## Installation
-
-1. (Optional) Create a virtual environment.
-2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -26,9 +27,19 @@ pip install -r requirements.txt
 
 ## Run
 
+Terminal version:
+
 ```bash
-python main.py
+python terminal_sort.py
 ```
+
+Pygame version:
+
+```bash
+python visual_sort.py
+```
+
+In the Pygame window, press `Space` to start sorting.
 
 ## Test
 
@@ -36,15 +47,8 @@ python main.py
 pytest -q
 ```
 
-The test suite includes 5 tests that cover sorting correctness, edge cases, in-place behavior, output control, and delay behavior.
-
-## Expected Behavior
-
-- The list is printed repeatedly as the algorithm progresses.
-- The final returned list is sorted in ascending order.
-
 ## Notes
 
-- Time complexity of Bubble Sort is $O(n^2)$ in average and worst cases.
-- Space complexity is $O(1)$ for in-place sorting.
-- The current script uses a fixed `time.sleep(1.5)` delay for each inner-loop step.
+- Bubble Sort time complexity is $O(n^2)$ (average and worst case).
+- Bubble Sort space complexity is $O(1)$ (in-place sorting).
+- Visualization code in both scripts is adapted from external references noted in source comments.
