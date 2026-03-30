@@ -98,4 +98,4 @@ row = os.get_terminal_size()[1]
 
 
 if __name__ == "__main__":
-    bubble_sort([2, 4, 6, 7, 2, 3, 4, 6])
+    bubble_sort(genArr(10))
